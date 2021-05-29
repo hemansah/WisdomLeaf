@@ -9,7 +9,10 @@
 #
 
 ### Run Instruction : python(3) app.py
+#
+### Data Insertion Sample :
+> ![](sample/sampl1.png) 
 
->Data Insertion Sample : ![](sample/sampl1.png) 
-
-> Data Querying sample : ![](sample/sample2.png) 
+#
+###  Data Querying sample : 
+>![](sample/sample2.png) 
