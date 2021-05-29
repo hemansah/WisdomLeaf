@@ -16,3 +16,7 @@
 #
 ###  Data Querying sample : 
 >![](sample/sample2.png) 
+
+
+### Output :
+> ![](sample/sample3.png) 
