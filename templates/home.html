@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WisdomLeaf Appointment</title>
+</head>
+<body>
+    
+    <h2>Enter a date range to find number of appointments</h2>
+    <form action="find_appointment", method="POST">
+        <input type="text" name="startdate" placeholder="Startdate"> </input><br>
+        <br>
+        <input type="text" name="enddate" placeholder="EndDate"> </input><br>
+        <br>
+        <button type="submit">Search</button>
+
+    </form>
+
+<hr>
+    <h2>Enter details below to save to db</h2>
+    <form action="add_one", method='POST'>
+    
+    <input type="text" name="title" placeholder="Enter title"> </input><br><br>
+
+    <input type="text" name="startyear"  placeholder="Enter start year"></input>
+    <input type="text" name="startmonth"  placeholder="Enter start month"></input>
+    <input type="text" name="startday"  placeholder="Enter start day"></input><br>
+    <br>
+    <input type="text" name="endyear"  placeholder="Enter end year"></input>
+    <input type="text" name="endmonth"  placeholder="Enter end month"></input>
+    <input type="text" name="endday"  placeholder="Enter end day"></input><br>
+    
+    <button type="submit">Save</button>
+    </form>
+
+</body>
+</html>
